@@ -8,7 +8,7 @@ def display_board(rows)
   puts "-----------"
   puts "   | #{rows[4]} |   "
   puts "-----------"
-  puts "   |   |   "
+  puts " #{rows[6]} | #{rows[7]} | #{rows[8]} "
 end
 
 puts display_board(rows)
