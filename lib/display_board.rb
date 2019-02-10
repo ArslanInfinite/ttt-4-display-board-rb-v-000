@@ -4,11 +4,11 @@
 rows = ["O", "O", "O", "O", "X", "O", "O", "O", "O"]
 
 def display_board(rows)
-  puts "   | #{rows[4]} |   "
+  puts "   | #{rows[1]} |   "
   puts "-----------"
   puts "   | #{rows[4]} |   "
   puts "-----------"
-  puts "   |   |   "
+  puts "   | #{rows[7]} |   "
 end
 
 puts display_board(rows)
